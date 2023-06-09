@@ -13,15 +13,8 @@
   </div>
 </div>
  <div class="chat-main">
-  <div class="messege-room">
-    <div class="upper-messege">
-     <div class="post-name">＃コメントしたユーザネーム</div>
-     <div class="post-time">＃時刻</div>
-    </div>
-  </div> 
-   <div class="lower-message">
-    <div class="post-content">＃おはよう</div> 
-   </div>
+  <%= render partial: 'message', collection: @messages %>
+
  </div>
 
 
